@@ -1,5 +1,7 @@
+//friends object which seeds the base data into the deployed app
 var friends = [
     {
+        //friends object which contains the key-value pairs of Name, Photo (link), and score results
         "name": "Finn",
         "photo": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/f/f3/Original_Finn.png/revision/latest?cb=20190807133114",
         "scores": [5,1,4,4,5,1,2,5,4,1]

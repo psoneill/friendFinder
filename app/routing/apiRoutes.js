@@ -8,6 +8,7 @@ router.get("/api/friends", function (req, res) {
 });
 
 router.post("/api/friends", function (req, res) {
+    //on POST received push new friend object into friends JSON object
     friends.push(req.body);
 });
 
